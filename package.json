@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/divyanshu3489/test.git"
+    "url": "https://github.com/divyanshu3489/react-native-smisdk-plugin.git"
   },
   "peerDependencies": {
     "patch-package": "^6.2.2",
