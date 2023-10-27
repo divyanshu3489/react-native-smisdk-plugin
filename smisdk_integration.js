@@ -286,7 +286,7 @@ function updateManifestFile(manifestPath, applicationClassName) {
 
         const manifest = readManifest(manifestPath);
         const packageName = getPackageName(manifest);
-        // console.log('packageName: ' + packageName);
+        console.log('packageName: ' + packageName);
         const packageFolder = packageName.replace(/\./g, path.sep);
         // console.log('packageFolder: ' + packageFolder);
         const mainApplicationPath = path.join(sourceDir,
